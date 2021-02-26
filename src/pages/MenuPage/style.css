@@ -1,0 +1,46 @@
+.MenuPage-list {
+  background-color: #ffe448;
+  height: 40vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(16px + 2vmin);
+  color: black;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: list-item;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  background-color: #ffd700;
+  align-items: center;
+  color: #2902d6;
+  font-size: xx-large;
+  font-weight: 700;
+  text-align: center;
+  height: 100vh;
+}
+.list-container {
+  background-color: #7c704f;
+  margin: 40px 70px 30px 70px;
+  border: 2px solid black;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.list-item {
+  font-size: x-large;
+  border: 1px solid black;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #ffd700;
+  background-image: url("../../assets/header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 15vh;
+  padding: 0;
+  margin: 0;
+}

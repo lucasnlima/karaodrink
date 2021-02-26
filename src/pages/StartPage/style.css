@@ -1,0 +1,33 @@
+.root {
+  text-align: center;
+}
+
+.header {
+  background-color: #ffd700;
+  background-image: url("../../assets/header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 15vh;
+  padding: 0;
+  margin: 0;
+}
+.play {
+  background-color: blue;
+  font-size: xx-large;
+  font-weight: 700;
+  color: red;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+  border: 5px solid black;
+  cursor: pointer;
+}
+
+.StartPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(16px + 2vmin);
+  color: black;
+  background-image: url("../../assets/backgroud.png");
+}
