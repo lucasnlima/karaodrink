@@ -1,48 +1,46 @@
 import React, { useEffect, useState } from "react";
-import { List, ListItem, Box, Container, Paper } from "@material-ui/core";
+import { Link, useLocation } from "react-router-dom";
 import prendas from "../../data/prendas.json";
-import music from "./effect1.ogg";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useParams,
-} from "react-router-dom";
+import music from "../../assets/effect1.ogg";
 import "./style.css";
 
 const ScorePage = () => {
-  const handleOnclick = () => {};
-  const [message, setMessage] = useState("");
-  const [score, setScore] = useState(0);
-  const audio = new Audio(music);
+    const location = useLocation();
+    const finalScore = location.state?.score || 0;
 
-  useEffect(() => {
-    audio.play();
-    setMessage(prendas[Math.floor(Math.random() * 20)].text);
-    scoreGenerate();
-  }, []);
+    const [message, setMessage] = useState("");
+    const [score, setScore] = useState(0);
 
-  const scoreGenerate = async () => {
-    const value = 79 + Math.floor(Math.random() * 20);
-    for (let index = 0; index < value; index++) {
-      setScore(index);
-      await new Promise((r) => setTimeout(r, 50));
-    }
-  };
+    useEffect(() => {
+        const audio = new Audio(music);
+        audio.play().catch(e => console.log("Audio play failed:", e));
 
-  return (
-    <div className="score-page">
-      <header className={"header"}></header>
-      <div className={"score"}>NOTA:{score}</div>
-      <div className={"prenda"}>{message}</div>
-      <Router forceRefresh={true}>
-        <Link to={"menu"}>
-          <button className={"play"}>Menu</button>
-        </Link>
-      </Router>
-    </div>
-  );
+        const randomPrenda = prendas[Math.floor(Math.random() * prendas.length)];
+        setMessage(randomPrenda.text);
+
+        scoreGenerate();
+    }, []);
+
+    const scoreGenerate = async () => {
+        for (let index = 0; index <= finalScore; index++) {
+            setScore(index);
+            await new Promise((r) => setTimeout(r, 20));
+        }
+    };
+
+    return (
+        <div className="score-page">
+            <div className="score-content">
+                <div className="score">NOTA: {score}</div>
+                <div className="prenda">{message}</div>
+                <div className="score-actions">
+                    <Link to="/menu">
+                        <button className="play">Menu</button>
+                    </Link>
+                </div>
+            </div>
+        </div>
+    );
 };
 
 export default ScorePage;

@@ -1,22 +1,57 @@
 .score-page {
-  background-color: #ffd700;
-  text-align: center;
-  height: 100vh;
+    background-color: #ffd700;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
+
+.score-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .prenda {
-  font-size: xxx-large;
-  margin: 20px;
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-  border: 5px solid black;
-  font-weight: 700;
-  align-items: center;
-  background-color: #ffffff;
+    font-size: 2.5rem;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.5);
+    border: 4px solid black;
+    font-weight: 700;
+    background-color: #ffffff;
+    width: 95%;
+    max-width: 1200px;
 }
 
 .score {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-size: 90px;
-  font-weight: 800;
-  align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 80px;
+    font-weight: 900;
+    color: black;
+}
+
+.play {
+    background-color: #2902d6;
+    color: #fff8dc;
+    font-size: 2rem;
+    padding: 10px 60px;
+    font-weight: 700;
+    border: 4px solid black;
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.play:active {
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    transform: translate(2px, 2px);
 }

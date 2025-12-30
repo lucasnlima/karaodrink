@@ -1,86 +1,176 @@
 [
-  {
-    "name": "Rita - Tierry",
-    "id": "STqknKQbZsc"
-  },
-  {
-    "name": "Basta Você Me Ligar - Barões",
-    "id": "NElz5UVFmyw"
-  },
-  {
-    "name": "Pearl Jam - Jeremy",
-    "id": "CR3sA3SjmgM"
-  },
-  {
-    "name": "Audioslave - Like A Stone",
-    "id": "brFy4D7Pb8M"
-  },
-  {
-    "name": "Evidências - Chitãozinho e Xororó",
-    "id": "nZgnPdIoGoU"
-  },
-  {
-    "name": "Skank - Balada Do Amor Inabalável",
-    "id": "GE3rpK1GUd0"
-  },
-  {
-    "name": "The Weeknd - Blinding Lights",
-    "id": "nGMZQzPRARc"
-  },
-  {
-    "name": "Red Hot Chili Peppers - Dark Necessities",
-    "id": "SjdFjQ6Ona8"
-  },
-  {
-    "name": "Californication - Red Hot Chili Peppers",
-    "id": "6TDgsAYz6KY"
-  },
-  {
-    "name": "Versace on the Floor - Bruno Mars",
-    "id": "pgwBLeHYHk8"
-  },
-  {
-    "name": "Bruno Mars - Grenade",
-    "id": "TiqHFNMNcHc"
-  },
-  {
-    "name": "Billionaire - Bruno Mars",
-    "id": "Al7PpTS98Qg"
-  },
-  {
-    "name": "Arctic Monkeys - Do I Wanna Know",
-    "id": "PAamIF2IObE"
-  },
-  {
-    "name": "Ela Vem - MC G15 e MC Livinho",
-    "id": "Hr5HaA9bIj8"
-  },
-  {
-    "name": "Te Prometo - Dennis, MC Don Juan",
-    "id": "SeAb32A95YY"
-  },
-  {
-    "name": "Virgem - MC Henny & MC Lya",
-    "id": "75MU8eUEnXU"
-  },
-  {
-    "name": "Mc Livinho - Cheia de Marra",
-    "id": "2BplZl8Vlxg"
-  },
-  {
-    "name": "Razões e emoções - NX Zero",
-    "id": "PrgX8rCzz-w"
-  },
-  {
-    "name": "Música 2",
-    "id": "si0MM0Y4uLI"
-  },
-  {
-    "name": "Música 3",
-    "id": "si0MM0Y4uLI"
-  },
-  {
-    "name": "Música 4",
-    "id": "si0MM0Y4uLI"
-  }
+    {
+        "id": "tfhwXKd1W_o",
+        "name": "Evidências",
+        "artist": "Chitãozinho & Xororó",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "8Qqof-Re98s",
+        "name": "Cheia de Manias",
+        "artist": "Raça Negra",
+        "genre": "Pagode"
+    },
+    {
+        "id": "D1wUl5Uc7eA",
+        "name": "Esperando Aviões",
+        "artist": "Vander Lee",
+        "genre": "MPB"
+    },
+    {
+        "id": "i4bjCeL4sJA",
+        "name": "Por Supuesto",
+        "artist": "Marina Sena",
+        "genre": "Pop"
+    },
+    {
+        "id": "3Wp7NTVyyN4",
+        "name": "Ainda Bem",
+        "artist": "Marisa Monte",
+        "genre": "MPB"
+    },
+    {
+        "id": "6ERnrzxuNlY",
+        "name": "Beija Eu",
+        "artist": "Marisa Monte",
+        "genre": "MPB"
+    },
+    {
+        "id": "wxdoFa3H71s",
+        "name": "Dormi na Praça",
+        "artist": "Bruno & Marrone",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "aYv3NeHTLVQ",
+        "name": "Choram as Rosas",
+        "artist": "Bruno & Marrone",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "J4q7vD5X8lQ",
+        "name": "Vou Deixar",
+        "artist": "Skank",
+        "genre": "Pop Rock"
+    },
+    {
+        "id": "Z1MLaexgBtc",
+        "name": "Sutilmente",
+        "artist": "Skank",
+        "genre": "Pop Rock"
+    },
+    {
+        "id": "L8UsuNWYu1k",
+        "name": "Amo Noite e Dia",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "v3STaCeXHhA",
+        "name": "Logo Eu",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "wjtm706Bv9o",
+        "name": "Cuida Bem Dela",
+        "artist": "Henrique & Juliano",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "oPEsF8Rj0w8",
+        "name": "Tempo Perdido",
+        "artist": "Legião Urbana",
+        "genre": "Rock"
+    },
+    {
+        "id": "STqknKQbZsc",
+        "name": "Rita",
+        "artist": "Tierry",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "NElz5UVFmyw",
+        "name": "Basta Você Me Ligar",
+        "artist": "Os Barões da Pisadinha",
+        "genre": "Piseiro"
+    },
+    {
+        "id": "CR3sA3SjmgM",
+        "name": "Jeremy",
+        "artist": "Pearl Jam",
+        "genre": "Rock"
+    },
+    {
+        "id": "brFy4D7Pb8M",
+        "name": "Like A Stone",
+        "artist": "Audioslave",
+        "genre": "Rock"
+    },
+    {
+        "id": "nGMZQzPRARc",
+        "name": "Blinding Lights",
+        "artist": "The Weeknd",
+        "genre": "Pop"
+    },
+    {
+        "id": "SjdFjQ6Ona8",
+        "name": "Dark Necessities",
+        "artist": "Red Hot Chili Peppers",
+        "genre": "Rock"
+    },
+    {
+        "id": "6TDgsAYz6KY",
+        "name": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "genre": "Rock"
+    },
+    {
+        "id": "pgwBLeHYHk8",
+        "name": "Versace on the Floor",
+        "artist": "Bruno Mars",
+        "genre": "Pop"
+    },
+    {
+        "id": "TiqHFNMNcHc",
+        "name": "Grenade",
+        "artist": "Bruno Mars",
+        "genre": "Pop"
+    },
+    {
+        "id": "Al7PpTS98Qg",
+        "name": "Billionaire",
+        "artist": "Bruno Mars",
+        "genre": "Pop"
+    },
+    {
+        "id": "PAamIF2IObE",
+        "name": "Do I Wanna Know?",
+        "artist": "Arctic Monkeys",
+        "genre": "Indie Rock"
+    },
+    {
+        "id": "Hr5HaA9bIj8",
+        "name": "Ela Vem",
+        "artist": "MC G15 e MC Livinho",
+        "genre": "Funk"
+    },
+    {
+        "id": "SeAb32A95YY",
+        "name": "Te Prometo",
+        "artist": "Dennis, MC Don Juan",
+        "genre": "Funk"
+    },
+    {
+        "id": "75MU8eUEnXU",
+        "name": "Virgem",
+        "artist": "MC Henny & MC Lya",
+        "genre": "Funk"
+    },
+    {
+        "id": "PrgX8rCzz-w",
+        "name": "Razões e Emoções",
+        "artist": "NX Zero",
+        "genre": "Rock"
+    }
 ]
