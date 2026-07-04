@@ -172,5 +172,419 @@
         "name": "Razões e Emoções",
         "artist": "NX Zero",
         "genre": "Rock"
+    },
+    {
+        "id": "PoKXwu375NU",
+        "name": "Esqueça-me Se For Capaz",
+        "artist": "Marília Mendonça",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "XsuV4Nj8kX4",
+        "name": "Leão",
+        "artist": "Marília Mendonça",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "Zz7v-0BuigA",
+        "name": "Sem Sal",
+        "artist": "Marília Mendonça",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "DWgfzzezvAc",
+        "name": "Bem Pior Que Eu",
+        "artist": "Marília Mendonça",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "2GAVDhLlxpg",
+        "name": "Ciumeira",
+        "artist": "Marília Mendonça",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "6Aph1VsQLPU",
+        "name": "Bebi Liguei",
+        "artist": "Marília Mendonça",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "HWQMtLTkrTo",
+        "name": "Graveto",
+        "artist": "Marília Mendonça",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "N1oV8MDTt3k",
+        "name": "Bebaça",
+        "artist": "Marília Mendonça",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "RvV0JbFSOvw",
+        "name": "Eu Sei de Cor",
+        "artist": "Marília Mendonça",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "n2vCZ7uIPik",
+        "name": "Então Valeu (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "sv9Jg5sWDfw",
+        "name": "Dói (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "Tudc9_RKkKg",
+        "name": "Paradigmas (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "SrdD1o78nbo",
+        "name": "Todo Seu (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "GRJFieEBcBg",
+        "name": "Propaganda (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "2goD_ZBsg6c",
+        "name": "Namorando Com Saudade (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "isurxh3VmEM",
+        "name": "Namora Eu Aí (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "l9CPN27CvOU",
+        "name": "Só Você e Eu (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "vOWQoAaksqg",
+        "name": "Mistérios (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "VTb8qopdpeQ",
+        "name": "A Hora e Agora (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "gPhZJ0hv4xw",
+        "name": "Tijolão (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "kSjm2HuJ8yg",
+        "name": "Pensa em Mim (Karaokê)",
+        "artist": "Jorge & Mateus",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "cAJe2D06Cpc",
+        "name": "Vem Pra Minha Vida (Karaokê)",
+        "artist": "Henrique & Juliano",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "4qmYxtyUX2s",
+        "name": "Última Saudade (Karaokê)",
+        "artist": "Henrique & Juliano",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "8JtUA0awlw8",
+        "name": "Traumatizei (Karaokê)",
+        "artist": "Henrique & Juliano",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "9yBXnrZ87cI",
+        "name": "Apelido Carinhoso (Karaokê)",
+        "artist": "Gusttavo Lima",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "AVocBaI4CdI",
+        "name": "Balada Boa (Karaokê)",
+        "artist": "Gusttavo Lima",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "dVcM9RBM7gU",
+        "name": "Saudade Sua (Karaokê)",
+        "artist": "Gusttavo Lima",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "oosKfBT_glQ",
+        "name": "Amigo Taxista (Karaokê)",
+        "artist": "Zé Neto & Cristiano",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "OgKTBPTAqJE",
+        "name": "Alô Ambev (Karaokê)",
+        "artist": "Zé Neto & Cristiano",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "zLBnwlc_eD0",
+        "name": "Medo Bobo (Karaokê)",
+        "artist": "Maiara & Maraisa",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "-8-MjhAncC0",
+        "name": "A Culpa É Nossa (Karaokê)",
+        "artist": "Maiara & Maraisa",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "Qjvb_p8lBfI",
+        "name": "Camarote (Karaokê)",
+        "artist": "Wesley Safadão",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "kLYB9iK77Y4",
+        "name": "Pipoco (Karaokê)",
+        "artist": "Ana Castela",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "7YrVRki5SAk",
+        "name": "Arruma Um Bão (Karaokê)",
+        "artist": "Israel & Rodolffo",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "UcLkyk8bdfk",
+        "name": "Batom De Cereja (Karaokê)",
+        "artist": "Israel & Rodolffo",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "4q3DbRUfmYI",
+        "name": "Seu Brilho Sumiu (Karaokê)",
+        "artist": "Israel & Rodolffo",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "J7oyaPEtYpI",
+        "name": "Amiga (Karaokê)",
+        "artist": "Simone & Simaria",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "Hx2JA-EflfU",
+        "name": "São Amores (Karaokê)",
+        "artist": "Simone & Simaria",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "RDZu7maASVU",
+        "name": "Foi Pá Pum (Karaokê)",
+        "artist": "Simone & Simaria",
+        "genre": "Sertanejo"
+    },
+    {
+        "id": "B707q0cbceg",
+        "name": "Resposta (Karaokê)",
+        "artist": "Skank",
+        "genre": "Pop Rock"
+    },
+    {
+        "id": "NK6na71SvRs",
+        "name": "Algo Parecido (Karaokê)",
+        "artist": "Skank",
+        "genre": "Pop Rock"
+    },
+    {
+        "id": "ttoTb1ALmsk",
+        "name": "Acima do Sol (Karaokê)",
+        "artist": "Skank",
+        "genre": "Pop Rock"
+    },
+    {
+        "id": "6pvShOMS8Kk",
+        "name": "Balada do Amor Inabalável (Karaokê)",
+        "artist": "Skank",
+        "genre": "Pop Rock"
+    },
+    {
+        "id": "fyMothOrbb4",
+        "name": "Maria, Maria (Karaokê)",
+        "artist": "Milton Nascimento",
+        "genre": "MPB"
+    },
+    {
+        "id": "hApcWn4wwGY",
+        "name": "Ando Meio Desligado (Karaokê)",
+        "artist": "Pato Fu",
+        "genre": "Rock"
+    },
+    {
+        "id": "hS3U1kQiUPk",
+        "name": "Marchinhas de Carnaval (Playback Karaokê)",
+        "artist": "Diversos",
+        "genre": "Carnaval"
+    },
+    {
+        "id": "OdTMe8e4tGU",
+        "name": "Marchinhas de Carnaval (Karaokê)",
+        "artist": "Diversos",
+        "genre": "Carnaval"
+    },
+    {
+        "id": "veZDs8y8Nso",
+        "name": "Marchinhas de Carnaval (Karaokê 2)",
+        "artist": "Diversos",
+        "genre": "Carnaval"
+    },
+    {
+        "id": "eh-6_7WIx2g",
+        "name": "Marchinhas de Carnaval (Karaokê 3)",
+        "artist": "Diversos",
+        "genre": "Carnaval"
+    },
+    {
+        "id": "VWD1oyJGr_c",
+        "name": "Mamãe Eu Quero (Playback Karaokê)",
+        "artist": "Diversos",
+        "genre": "Carnaval"
+    },
+    {
+        "id": "VLNXp9sQblU",
+        "name": "Cidade Maravilhosa (Karaokê)",
+        "artist": "Diversos",
+        "genre": "Carnaval"
+    },
+    {
+        "id": "L409x_gvwm8",
+        "name": "good 4 u (Karaokê)",
+        "artist": "Olivia Rodrigo",
+        "genre": "Pop"
+    },
+    {
+        "id": "C3y6jGCXiUA",
+        "name": "drivers license (Karaokê)",
+        "artist": "Olivia Rodrigo",
+        "genre": "Pop"
+    },
+    {
+        "id": "xpha1FmOjLA",
+        "name": "vampire (Karaokê)",
+        "artist": "Olivia Rodrigo",
+        "genre": "Pop"
+    },
+    {
+        "id": "8iBJPvRXqgQ",
+        "name": "deja vu (Karaokê)",
+        "artist": "Olivia Rodrigo",
+        "genre": "Pop"
+    },
+    {
+        "id": "xs-hqTHMjJY",
+        "name": "Halo (Karaokê)",
+        "artist": "Beyoncé",
+        "genre": "Pop"
+    },
+    {
+        "id": "f7vsfT-NzY4",
+        "name": "Single Ladies (Karaokê)",
+        "artist": "Beyoncé",
+        "genre": "Pop"
+    },
+    {
+        "id": "0_yR35_wAlw",
+        "name": "Crazy In Love (Karaokê)",
+        "artist": "Beyoncé",
+        "genre": "Pop"
+    },
+    {
+        "id": "7DzQs7dpNL8",
+        "name": "Diamonds (Karaokê)",
+        "artist": "Rihanna",
+        "genre": "Pop"
+    },
+    {
+        "id": "mYuyywCgTx4",
+        "name": "Umbrella (Karaokê)",
+        "artist": "Rihanna",
+        "genre": "Pop"
+    },
+    {
+        "id": "jjewFXZEJCI",
+        "name": "Work (Karaokê)",
+        "artist": "Rihanna",
+        "genre": "Pop"
+    },
+    {
+        "id": "28uuwh6BnI4",
+        "name": "We Found Love (Karaokê)",
+        "artist": "Rihanna",
+        "genre": "Pop"
+    },
+    {
+        "id": "UcBJHF5VsTY",
+        "name": "Love Story (Karaokê)",
+        "artist": "Taylor Swift",
+        "genre": "Pop"
+    },
+    {
+        "id": "-i5MU14JLdw",
+        "name": "Shake It Off (Karaokê)",
+        "artist": "Taylor Swift",
+        "genre": "Pop"
+    },
+    {
+        "id": "v0dAGlf1arw",
+        "name": "Anti-Hero (Karaokê)",
+        "artist": "Taylor Swift",
+        "genre": "Pop"
+    },
+    {
+        "id": "9kcAvhEzWHI",
+        "name": "Blank Space (Karaokê)",
+        "artist": "Taylor Swift",
+        "genre": "Pop"
+    },
+    {
+        "id": "dJa-R_Pdyo0",
+        "name": "Espresso (Karaokê)",
+        "artist": "Sabrina Carpenter",
+        "genre": "Pop"
+    },
+    {
+        "id": "3hc24MkUdhM",
+        "name": "Please Please Please (Karaokê)",
+        "artist": "Sabrina Carpenter",
+        "genre": "Pop"
+    },
+    {
+        "id": "JO9dHGu-ayA",
+        "name": "Taste (Karaokê)",
+        "artist": "Sabrina Carpenter",
+        "genre": "Pop"
     }
 ]
