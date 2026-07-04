@@ -86,11 +86,17 @@ export class AudioEngine {
         }
     }
 
+    getVoiceRMS() {
+        // Returns the RMS cached by the last getVoicePitch() call in this tick.
+        return this._lastVoiceRMS || 0;
+    }
+
     getVoicePitch() {
         if (!this.analyserVoice) return null;
         this.analyserVoice.getFloatTimeDomainData(this.bufferVoice);
 
         const rms = this.getRMS(this.bufferVoice);
+        this._lastVoiceRMS = rms; // cache for getVoiceRMS()
         if (rms < 0.02) return null;
 
         if (!this.detectorVoice) return null;

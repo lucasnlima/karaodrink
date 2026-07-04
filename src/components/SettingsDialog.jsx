@@ -4,7 +4,7 @@ import {
     Select, MenuItem, FormControl, InputLabel, Divider, Grid, IconButton
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import { getSettings, saveSettings } from '../utils/settings';
+import { getSettings, saveSettings, PRESETS } from '../utils/settings';
 import { audioEngine } from '../audio/AudioEngine';
 
 const SettingsDialog = ({ open, onClose }) => {
@@ -21,9 +21,15 @@ const SettingsDialog = ({ open, onClose }) => {
         setSettings(newSettings);
         saveSettings(newSettings);
         audioEngine.updateSettings(newSettings);
-        if (key === 'debugMode') {
-            audioEngine.setDebug(value);
-        }
+        if (key === 'debugMode') audioEngine.setDebug(value);
+    };
+
+    const handlePreset = (presetKey) => {
+        const preset = PRESETS[presetKey];
+        const newSettings = { ...settings, ...preset, activePreset: presetKey };
+        setSettings(newSettings);
+        saveSettings(newSettings);
+        audioEngine.updateSettings(newSettings);
     };
 
     const handleStartSystemAudio = async () => {
@@ -134,6 +140,73 @@ const SettingsDialog = ({ open, onClose }) => {
             </Box>
 
             <Box sx={win95Styles.content}>
+
+                {/* ── Party Mode ── */}
+                <Box sx={{
+                    ...win95Styles.group,
+                    borderColor: settings.partyMode ? '#ff00cc #800066 #800066 #ff00cc' : undefined,
+                    background: settings.partyMode ? 'linear-gradient(135deg,rgba(80,0,80,0.18),rgba(0,0,0,0))' : undefined,
+                }}>
+                    <Typography sx={{ ...win95Styles.groupLabel, color: settings.partyMode ? '#ff00cc' : undefined }}>
+                        Modo Festa 🎉
+                    </Typography>
+                    <Box display="flex" alignItems="center" gap={2} mt={0.5}>
+                        <Button
+                            fullWidth
+                            onClick={() => handleChange('partyMode', !settings.partyMode)}
+                            sx={{
+                                ...win95Styles.button,
+                                background: settings.partyMode
+                                    ? 'linear-gradient(90deg,#cc00aa,#6600cc)'
+                                    : undefined,
+                                color: settings.partyMode ? 'white' : 'black',
+                                fontWeight: 'bold',
+                                fontSize: 16,
+                            }}
+                        >
+                            {settings.partyMode ? '✅ Modo Festa Ativo' : 'Ativar Modo Festa'}
+                        </Button>
+                    </Box>
+                    <Typography sx={{ fontSize: 11, mt: 1, opacity: 0.7 }}>
+                        Avalia Presença de Palco, Controle Vocal e Resistência — sem comparar com a música original.
+                    </Typography>
+                </Box>
+
+                {/* ── Difficulty Presets ── */}
+                <Box sx={win95Styles.group}>
+                    <Typography sx={win95Styles.groupLabel}>Dificuldade</Typography>
+                    <Box display="flex" gap={1} mt={0.5}>
+                        {Object.entries(PRESETS).map(([key, preset]) => {
+                            const active = settings.activePreset === key;
+                            const colors = { easy: '#2e7d32', medium: '#e65100', hard: '#b71c1c' };
+                            return (
+                                <Button
+                                    key={key}
+                                    fullWidth
+                                    onClick={() => handlePreset(key)}
+                                    sx={{
+                                        ...win95Styles.button,
+                                        borderWidth: active ? '3px' : '1px',
+                                        borderStyle: 'solid',
+                                        borderColor: active
+                                            ? `${colors[key]} !important`
+                                            : '#ffffff #404040 #404040 #ffffff',
+                                        fontWeight: active ? 'bold' : 'normal',
+                                        color: active ? colors[key] : 'black',
+                                        flexDirection: 'column',
+                                        py: 1,
+                                    }}
+                                >
+                                    <span style={{ fontSize: 16 }}>{preset.label}</span>
+                                    <span style={{ fontSize: 10, opacity: 0.7, textTransform: 'none', lineHeight: 1.2, marginTop: 2 }}>
+                                        {preset.description}
+                                    </span>
+                                </Button>
+                            );
+                        })}
+                    </Box>
+                </Box>
+
                 <Box sx={win95Styles.group}>
                     <Typography sx={win95Styles.groupLabel}>Captação de Voz</Typography>
                     <Grid container spacing={2}>
@@ -223,6 +296,10 @@ const SettingsDialog = ({ open, onClose }) => {
                         <FormControlLabel
                             control={<Switch size="medium" checked={settings.debugMode} onChange={(e) => handleChange('debugMode', e.target.checked)} />}
                             label={<span style={{ fontSize: '14px', fontWeight: 'bold' }}>Log de Debug</span>}
+                        />
+                        <FormControlLabel
+                            control={<Switch size="medium" checked={settings.devMode || false} onChange={(e) => handleChange('devMode', e.target.checked)} />}
+                            label={<span style={{ fontSize: '14px', fontWeight: 'bold' }}>Modo Desenvolvedor (afinador visual)</span>}
                         />
                     </Box>
                 </Box>
